@@ -3,15 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title></title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="head"></div>
-    <div class="technology"></div>
-    <div class="trending">
-        <img src="" alt="" srcset="">
-    </div>
-    <div class="post"></div>
+    <div id="container"></div>
 </body>
+<script>
+    // let newDiv=document.createElement("div")
+    // newDiv.textContent="Headline"
+    // // const container=document.getElementById("container")
+    // // container.appendChild(newDiv)
+    // newDiv.style.color="black";
+    // let newPar=document.createElement("p")
+    // newPar.textContent="This is paragraph"
+    // // newPar.className = "new-par"
+    // container.appendChild(newPar)
+    // newPar.style.fontSize = "100px";
+    // newPar.style.color="red";
+    // newPar.style.width = "100px";
+    // newPar.style.height="50px";
+    // newPar.style.borderWidth="2px";
+    // newPar.style.borderColor = "black";
+    // newPar.style.borderStyle="solid";
+
+    let container = document.getElementById("container");
+    let card = document.createElement("div");
+    container.appendChild(card);
+    card.style.width="300px";
+    card.style.height="350px";
+    card.style.backgroundColor="pink";
+    card.style.borderRadius="10px";
+    let par = document.createElement("p");
+    par.textContent="Haha";
+    par.style.fontSize="100px";
+    par.style.backgroundColor="black";
+    let image = document.createElement("img");
+    card.appendChild(image);
+    image.src=""
+</script>
 </html>

@@ -1,20 +1,49 @@
-*{
-    width: 100vw;
-    height: 100vh;
-    background-color: pink;
-    margin: 0;
-    padding: 0;
-}
-.head{
-    display: flex;
-    height:115px;
+/* *{
     width: 100%;
-    background-color: red;
+    height: 100%;
+    background-color: pink;
+    margin: 1;
+    padding: 0;
+    display:flex;
+}
+.top{
+    display:flex;
+    height:250px;
+    margin: 1;
+}
+.box1{
+    width:33vw;
+    background-color:black;
+    padding:1;
+}
+.box2{
+    width:33vw;
+    background-color:rgb(206, 255, 43);
+    padding:1;
+}
+.box3{
+    width:34vw;
+    background-color:rgb(124, 48, 179);
+    padding:1;
+}
+.dund{
+    display:flex;
+    height:750px;
+}
+.b1{
+    width:50vw;
+    background-color: aquamarine;
+}
+.b2{
+    width:50vw;
+    background-color: honeydew;
 }
 
-.technology{
+.smallBox{
     display:flex;
-    height:25%;
-    width:100%;
-    background-color: green;
-}
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    height:5vh;
+    width:5vw;
+} */
